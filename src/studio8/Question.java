@@ -31,10 +31,10 @@ public class Question {
 		return this.answer;
 	}
 	
-	public static void main(String[] args) {
-		Question q = new Question("What number studio is this?", "8", 2);
-		q.displayPrompt();
-		System.out.println(q.checkAnswer("hi"));
-		System.out.println(q.checkAnswer("8"));
-	}
+	//public static void main(String[] args) {
+		//Question q = new Question("What number studio is this?", "8", 2);
+		//q.displayPrompt();
+		//System.out.println(q.checkAnswer("hi"));
+		//System.out.println(q.checkAnswer("8"));
+	//}
 }
